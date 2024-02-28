@@ -1,0 +1,80 @@
+.todo-page {
+    height: 100vh;
+    background: #111F4D;
+}
+
+.todo-app {
+    height: 100vh;
+    background: #111F4D;
+    border: 1px solid #30475E;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.todo-app__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 32px 0;
+}
+
+.todo-app__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.todo-input {
+    padding: 15px 32px 15px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #F05454;
+    outline: none;
+    width: 30%;
+  }
+  
+
+.todo-input::placeholder {
+    color: #F05454;
+}
+
+.todo-btn {
+    padding: 16px;
+    border: 1px solid #F05454;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: #F05454;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.todo-btn:hover {
+    color: #111F4D;
+}
+
+.todo-app__list {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.todo-app__list::-webkit-scrollbar {
+    width: 11px;
+}
+
+.todo-app__list::-webkit-scrollbar-track {
+    background: #F2F4F7;
+    border-radius: 8px;
+}
+
+.todo-app__list::-webkit-scrollbar-thumb{
+    background: #30475E;
+    border-radius: 8px;
+}
+
+.todo-app__list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
